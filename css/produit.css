@@ -1,0 +1,24 @@
+.imageproduit{
+  width : 200px;
+  margin : 20px;
+}
+.tot{
+  background-color: lightGrey;
+  margin : 10px;
+}
+.nomproduit{
+  font-face : "Grand hotel";
+  font-size: 25px;
+}
+.prix{
+  font-face : "fontinB";
+  font-size: 10px;
+}
+.description{
+  text-align: justify;
+  border-radius: 2px;
+  border-color : #70402f;
+  box-shadow: 3px 3px 10px #70402f;
+  padding: 10px;
+  background-color: inherit;
+}

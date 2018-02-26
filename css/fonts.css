@@ -1,0 +1,15 @@
+@font-face {
+    font-family: fontin;
+    src: url("../fonts/Fontin-Regular.ttf");
+}
+@font-face {
+    font-family: fontinB;
+    src: url("../fonts/Fontin-Bold.ttf");
+}
+@font-face {
+    font-family: fontinI;
+    src: url("../fonts/Fontin-Italic.ttf");
+}
+*{
+  font-family: "fontin";
+}

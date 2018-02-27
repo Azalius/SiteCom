@@ -12,52 +12,59 @@
 </head>
 <body>
 
-<div class = "row container">
+<div class = "row container haut">
   <span class = "col-xl-5">
     <img src = "img/produit.bmp" alt = "chemise"/ class = "imageproduit">
   </span>
   <span class = "col-xl-6 tot">
     <div class = "nomproduit">Chemise coupe slim homme</div>
     <div class = "prix">119.99€</div>
-    <div class = "description">Cette chemise a coupe slim pur homme est une piéce à la fois elegante et moderne. Elle se plie à toutes les occasions et peut etre portée à la fois avec un costume ou un simple jean. Fourni avec des boutons de rechanges.</div>
+    <div class = "descriptione">Cette chemise a coupe slim pur homme est une piéce à la fois elegante et moderne. Elle se plie à toutes les occasions et peut etre portée à la fois avec un costume ou un simple jean. Fourni avec des boutons de rechanges.</div>
     <div class = "qte"> Quantite :
       <select>
        <option value="1">1</option>
        <option value="2">2</option>
        <option value="3">3</option>
        <option value="4">4</option>
-       </select>
+     </select>
+     <span class = "note"> - Livraison gratuite - </span><br/>
        <span class = "note">Atention : toutes les produits commandés seront identiques en mesure et en tissu.</span>
     </div>
   </span>
 </div>
-<div class = "row container">
-  <span class = "col-xl-4">
-    <p>N'hesitez pas à consulter notre guide <a>comment bien choisir son tissu</a></p>
+<div class = "row container dessous">
+  <span class = "col-xl-4 cat">
+    <h2>Tissu et couleurs</h2>
+    <p>N'hesitez pas à consulter notre guide <span class = "lien">comment bien choisir son tissu</span></p>
     <select>
-    <option value="1">Coton bio - commerce equitable - jaune pale</option>
-    <option value="2">Coton bio - commerce equitable - bleu foncé</option>
-     <option value="4">Synthetique 100% fabrique en france - blanc</option>
-     <option value="4">Synthetique 100% fabrique en france - noir</option>
-     <option value="3">Cachmire bio du Gabon - mauve</option>
-     <option value="4">Cachmire bio du Gabon - bleu clair</option>
-     <option value="4">Cachmire bio du Gabon - Rouge bordeaux</option>
+    <option value="1">Coton bio - commerce equitable</option>
+     <option value="4">Synthetique 100% fabrique en france</option>
+     <option value="3">Cachmire bio du Gabon</option>
     </select>
+    <select>
+    <option value="1">Blanc</option>
+     <option value="4">Bleu</option>
+     <option value="3">Rouge</option>
+    </select>
+    <p> Le coton 'dana', issu du commerce equitable et fabriqué en inde, est reputé pour son confort sa solidité. Il est garanti 100% bio et sans produits chimiques</p>
+    <span class = "lien">En savoir plus...</span>
   </span>
-  <p> Le coton 'dana', issu du commerce equitable et fabriqué en inde, est reputé pour son confort sa solidité.</p>
-  <span class = "col-xl-4">
-    <p>N'hesitez pas à consulter notre guide <a>comment obtenir mes mensurations</a></p>
-     Epaule : <input name="firstname" type="text">
-     Taille : <input name="firstname" type="text">
-     Hanches : <input name="firstname" type="text">
-     Longeur : <input name="firstname" type="text">
-      Longeur : <input name="firstname" type="text">
+  <span class = "col-xl-4 mide cat">
+    <h2>Mensurations</h2>
+    <p>N'hesitez pas à consulter notre guide <span class = "lien">comment obtenir mes mensurations</span></p>
+     Epaules : <input name="firstname" type="text">cms<br>
+     Taille : <input name="firstname" type="text">cms<br>
+     Hanches : <input name="firstname" type="text">cms<br>
+     Longeur : <input name="firstname" type="text">cms<br>
+      Longeur : <input name="firstname" type="text">cms<br>
      <p class = "note">Note : nos produits étant cousu à la main, il est possible que le vetements posséde qelques centimetres de differences avec les valeurs qui ont été fournie.</p>
   </span>
-  <span class = "col-xl-4">
+  <span class = "col-xl-3 cat">
+    <h2>Finalisation</h2>
     <p>Si vous avez des remarques spéciales concernant votre commande ou vous souhaitez des modifications particuliéres, merci de les indiquer ici : </p>
-    Longeur : <input name="firstname" type="text">
-    <p>Temps de fabrication estimé : 2-3 jours</p>
+    Remarque :<br> <textarea rows = "4" cols = "25"></textarea>
+    <p class = "note">Temps de fabrication estimé : 2-3 jours</p>
+    <img src = "img/ajout.svg" alt = "Ajouter au panier" class = "ajoute"/> Ajouter au panier
   </span>
 </div>
 

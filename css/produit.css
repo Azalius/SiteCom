@@ -1,24 +1,82 @@
 .imageproduit{
   width : 200px;
   margin : 20px;
+  box-shadow: 10px 10px 10px lightGrey;
+}
+h2{
+  font-family : "Grand Hotel";
+  font-size: 25px;
+  padding: 1px;
+  margin-bottom: 14px;
+  background-color: #30c040;
+  color: white;
+  text-align: center
 }
 .tot{
-  background-color: lightGrey;
   margin : 10px;
 }
+.haut{
+  padding : 10px;
+  border-radius : 5px;
+}
 .nomproduit{
-  font-face : "Grand hotel";
-  font-size: 25px;
+  font-family : "Grand Hotel";
+  font-size: 30px;
 }
 .prix{
-  font-face : "fontinB";
-  font-size: 10px;
+  font-family : "fontinB";
+  font-size: 15px;
+  margin : 4px;
+  padding : 8px;
+  border-left: 4px solid #30c040;
+  width: 150px;
+  background: linear-gradient(to right,#d8d8d8, white)
 }
-.description{
+.descriptione{
   text-align: justify;
   border-radius: 2px;
   border-color : #70402f;
   box-shadow: 3px 3px 10px #70402f;
-  padding: 10px;
-  background-color: inherit;
+  padding: 8px;
+  margin:4px;
+  background-color: #d8d8d8;
+}
+.qte{
+  font-size: 20px;
+  text-align: center;
+  margin : 10px;
+}
+.note{
+  font-family: "arial";
+  font-size: 10px;
+}
+.lien{
+  font-family: "FontinI";
+  text-decoration: underline;
+  color: blue;
+}
+.cat{
+  padding-bottom : 25px;
+  padding-right: 5px;
+  background: linear-gradient(#70402f, #d8d8d8, #d8d8d8, #d8d8d8, white);
+  margin : 10px;
+  border-left: 5px solid #30c040;
+  border-right: 5px solid #30c040;
+}
+select{
+  margin-top: 5px;
+  width: 90%;
+}
+.ajoute{
+  height : 40px;
+  background-color: #d8d8d8;
+  border-radius: 8px;
+  border: 2px solid #30c040;
+  box-shadow: 2px 2px 2px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  margin-left: 10px;
+  margin-right: 10px;
 }

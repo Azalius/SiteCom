@@ -1,8 +1,8 @@
-#imgTitre{
+#imgTitres{
    height: 100px;
    text-align: center;
    border-radius: 5px;
-   box-shadow: 20px 20px inset;
+
 }
 #nave{
   width : 100%;
@@ -11,7 +11,8 @@
 .navbar-nav{
 }
 .colcentre{
-  text-align: center;
+  background-color: white;
+  border-radius: 25px;
 }
 .colgauche{
   text-align: left;

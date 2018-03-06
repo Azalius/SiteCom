@@ -1,0 +1,25 @@
+body{
+  background-color:#d8d8d8;
+}
+#MainImage{
+  margin-top:20px;
+}
+.blabla{
+  margin-left:-30px;
+  margin-right:-150px;
+  background-color:#30c040;
+  border-radius:0px 25px 25px 0px;
+  padding-right:10px;
+}
+.titre{
+  padding-left:5px;
+  font-family:"Grand Hotel";
+  font-size:32px;
+}
+.lien{
+  color:blue;
+  text-decoration: underline;
+}
+#image{
+  margin-left:-130px;
+}

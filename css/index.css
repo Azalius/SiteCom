@@ -3,6 +3,7 @@ body{
 }
 #MainImage{
   margin-top:20px;
+  max-height:600px;
 }
 .blabla{
   margin-left:-30px;
@@ -22,4 +23,7 @@ body{
 }
 #image{
   margin-left:-130px;
+}
+#im{
+  max-height:25%;
 }
